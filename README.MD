@@ -21,11 +21,18 @@ The project's directory structure is organized as follows:
 
 The dataset used in this project should be placed in the `data/` directory. It should be a structured dataset with the following columns:
 
-- `item_price`: The price of the product (numerical feature)
-- `weight`: The weight of the product (numerical feature)
-- `outlet_type`: The type of outlet (categorical feature)
-- `outlet_size`: The size of the outlet (categorical feature)
-- `sales`: The target variable representing the sales of the product (numerical)
+Item_Identifier: Unique identifier for the item
+Item_Weight: The weight of the product (numerical feature)
+Item_Fat_Content: The fat content of the item (categorical feature)
+Item_Visibility: The visibility of the item in the outlet (numerical feature)
+Item_Type: The type/category of the item (categorical feature)
+Item_MRP: The Maximum Retail Price of the item (numerical feature)
+Outlet_Identifier: Unique identifier for the outlet
+Outlet_Establishment_Year: The year the outlet was established (numerical feature)
+Outlet_Size: The size of the outlet (categorical feature)
+Outlet_Location_Type: The type of location where the outlet is situated (categorical feature)
+Outlet_Type: The type of outlet (categorical feature)
+Item_Outlet_Sales: The target variable representing the sales of the product (numerical
 
 Ensure that the dataset is clean and doesn't contain missing or erroneous values.
 
@@ -36,7 +43,7 @@ To run the project, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Avaneesh-Pathak/sales-price-prediction.git
+git clone https://github.com/Avaneesh-Pathak/Sales-Prediction.git
 ```
 
 2. Navigate to the project's root directory:
